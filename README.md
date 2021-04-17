@@ -1,5 +1,12 @@
 # Getting Started with Create React App
 
+## How to run the project in Local
+$npm install
+$npx json-server --watch data/db.json --port 8000
+$npm run start
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
