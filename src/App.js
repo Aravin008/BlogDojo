@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Create from './components/Create';
 import BlogDetail from './components/BlogDetail';
+import NotFound from './components/NotFound';
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
 
             <Route exact path="/blog/:id"> 
               <BlogDetail/>
+            </Route>
+
+            <Route path="*">
+              <NotFound/>
             </Route>
             
           </Switch>
